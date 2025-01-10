@@ -1,4 +1,6 @@
 site_name: My Docs
+repo_name: solve-and-evolve
+repo_url: https://github.com/faerlin-developer/solve-and-evolve
 theme:
   name: material
   features:
