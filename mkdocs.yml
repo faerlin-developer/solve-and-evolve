@@ -1,0 +1,38 @@
+site_name: My Docs
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    # - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle: 
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+nav:
+  - 'index.md'
+  - 'Tab 1':
+    - 'tab-1/page-1.md'
+    - 'tab-1/page-2.md'
+  - 'Tab 2':
+    - 'tab-2/page-1.md'
+    - 'tab-2/page-2.md'
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/faerlin-developer/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/faerlin-pulido/
