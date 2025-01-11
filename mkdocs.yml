@@ -1,13 +1,10 @@
-site_name: Never Stop Coding
-repo_name: solve-and-evolve
-repo_url: https://github.com/faerlin-developer/solve-and-evolve
+
 theme:
   name: material
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
-    # - toc.integrate
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -23,6 +20,14 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 nav:
   - 'index.md'
   - 'Binary Tree':
@@ -34,18 +39,6 @@ nav:
   - 'Linked List':
     - "something": none
 
-markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-
-extra:
-  social:
-#    - icon: fontawesome/brands/github-alt
-#      link: https://github.com/faerlin-developer/
-#    - icon: fontawesome/brands/linkedin
-#      link: https://www.linkedin.com/in/faerlin-pulido/
+site_name: Never Stop Coding
+repo_name: solve-and-evolve
+repo_url: https://github.com/faerlin-developer/solve-and-evolve

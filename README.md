@@ -4,6 +4,10 @@
 git clone --recurse-submodules git@github.com:faerlin-developer/never-stop-coding.git
 ```
 
+```bash
+git submodule update --remote --merge
+```
+
 ## Installation
 
 ```bash
