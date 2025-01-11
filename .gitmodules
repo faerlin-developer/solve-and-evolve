@@ -1,0 +1,6 @@
+[submodule "leetcode"]
+	path = leetcode
+	url = git@github.com:faerlin-developer/leetcode.git
+[submodule "leetcode-solutions"]
+	path = leetcode-solutions
+	url = git@github.com:faerlin-developer/leetcode-solutions.git
