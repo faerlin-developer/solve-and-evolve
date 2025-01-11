@@ -11,6 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: recursive # Ensures submodules are checked out automatically
+      - name: Ensure Submodules Are Up-to-Date
+        run: git submodule update --init --recursive
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
