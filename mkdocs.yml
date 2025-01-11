@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Never Stop Coding
 repo_name: solve-and-evolve
 repo_url: https://github.com/faerlin-developer/solve-and-evolve
 theme:
@@ -7,7 +7,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
-    - toc.integrate
+    # - toc.integrate
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -25,16 +25,27 @@ theme:
         name: Switch to light mode
 nav:
   - 'index.md'
-  - 'Tab 1':
-    - 'tab-1/page-1.md'
-    - 'tab-1/page-2.md'
-  - 'Tab 2':
-    - 'tab-2/page-1.md'
-    - 'tab-2/page-2.md'
+  - 'Binary Tree':
+    - '250 - count univalue subtrees': 'binary-tree/250.md'
+    - 'binary-tree/page.md'
+  - 'Binary Search Tree':
+    - 'binary-search-tree/page-1.md'
+    - 'binary-search-tree/page-2.md'
+  - 'Linked List':
+    - "something": none
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/faerlin-developer/
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/faerlin-pulido/
+#    - icon: fontawesome/brands/github-alt
+#      link: https://github.com/faerlin-developer/
+#    - icon: fontawesome/brands/linkedin
+#      link: https://www.linkedin.com/in/faerlin-pulido/
