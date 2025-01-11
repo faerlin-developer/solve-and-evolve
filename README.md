@@ -1,5 +1,9 @@
 # mkdocs-template
 
+```bash
+git clone --recurse-submodules git@github.com:faerlin-developer/never-stop-coding.git
+```
+
 ## Installation
 
 ```bash
