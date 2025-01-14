@@ -1,5 +1,9 @@
 serve:
 	mkdocs serve
 
-compile:
-	./compile.sh mkdocs
+deploy:
+	mkdocs gh-deploy --force
+	rm -rf site
+
+update-submodule:
+	git submodule update --remote
